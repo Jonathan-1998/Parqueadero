@@ -1,4 +1,4 @@
-@extends('layouts.app', ['activePage' => 'vehiculo'])
+@extends('layouts.app', ['activePage' => 'vehiculo','titlePage' => __('Vehiculo')])
 
 @extends('layout.layout')
 
