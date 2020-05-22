@@ -43,6 +43,7 @@ class DetalleController extends Controller
         //validar que lleguen todos los campos
         $request->validate([
             'Hora_entrada' => 'required',
+            'fecha' => 'required',
             'idVehiculo' => 'required',
             'idCliente' => 'required',
               
@@ -95,6 +96,7 @@ class DetalleController extends Controller
     {
         $request->validate([
             'Hora_entrada' => 'required',
+            'fecha' => 'required',
             'idVehiculo' => 'required',
             'idCliente' => 'required',
                   

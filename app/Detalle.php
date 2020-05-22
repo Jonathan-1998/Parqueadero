@@ -8,5 +8,5 @@ use Illuminate\Database\Eloquent\SoftDeletes;
 class Detalle extends Model
 {
     use SoftDeletes;
-    protected $fillable = [ 'Hora_entrada', 'idVehiculo', 'idCliente'];
+    protected $fillable = [ 'Hora_entrada', 'idVehiculo', 'idCliente','fecha'];
 }

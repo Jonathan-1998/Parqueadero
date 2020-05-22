@@ -18,6 +18,15 @@
 <br>
 
 <div class="row">
+        <h4>Fecha: </h4>
+    <div class="col-sm-3">
+        <p class="lead">{{$detalle->fecha}}</p>
+    </div>
+</div>
+
+<br>
+
+<div class="row">
         <h4>Vehiculo: </h4>
         <div class="col-sm-3">
         <p class="lead">{{$detalle->vehiculo}}</p>

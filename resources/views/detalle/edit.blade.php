@@ -26,7 +26,16 @@
     <div class="form-row">
         <div class="form-group col-md-6">
             <label>Hora entrada: </label>
-            <input type="text" class="form-control" name="Hora_entrada" value="{{$detalle->Hora_entrada}}">
+            <input type="time" class="form-control" name="Hora_entrada" value="{{$detalle->Hora_entrada}}">
+        </div>
+    </div>
+
+    <br>
+
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label>Fecha: </label>
+            <input type="date" class="form-control" name="fecha" value="{{$detalle->fecha}}">
         </div>
     </div>
 

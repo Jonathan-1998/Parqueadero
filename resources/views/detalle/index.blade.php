@@ -19,6 +19,7 @@
         
             <thead>
                 <th>Hora de entrada</th>
+                <th>Fecha</th>
                 <th>Acciones</th>
             </thead>
         
@@ -27,6 +28,7 @@
                 <tr>
                     
                     <td>{{$detalle -> Hora_entrada}}</td>
+                    <td>{{$detalle -> fecha}}</td>
                                                                                
                     <td>
                          <form action="{{route('detalle.destroy', $detalle->id)}}" method="post">

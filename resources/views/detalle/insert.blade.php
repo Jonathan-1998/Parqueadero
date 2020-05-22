@@ -28,7 +28,14 @@
     <div class="form-row">
         <div class="form-group col-md-6">
             <label>Hora entrada: </label>
-            <input type="text" class="form-control" name="Hora_entrada" placeholder="00:00">
+            <input type="time" class="form-control" name="Hora_entrada" placeholder="00:00">
+        </div>
+    </div>
+
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label>Fecha: </label>
+            <input type="date" class="form-control" name="fecha" placeholder="dd/mm/aa">
         </div>
     </div>
 

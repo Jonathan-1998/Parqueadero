@@ -16,6 +16,7 @@ class CreateDetallesTable extends Migration
         Schema::create('detalles', function (Blueprint $table) {
             $table->bigIncrements('id');
             $table->string('Hora_entrada');
+            $table->string('fecha');
             $table->bigInteger('idVehiculo')->unsigned();
             $table->foreign('idVehiculo')->references('id')->on('vehiculos');
             $table->bigInteger('idCliente')->unsigned();
